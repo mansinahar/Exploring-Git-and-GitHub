@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It helps you find what was it that you changed that led to the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    	It makes it easy to remove bugs easily if any are introduced by making any changes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    For purposes like codes manual commit is better because it won’t make too many unnecessary commits making it hard for you to view at the history later on and make sense out of it whereas auto-commit has the advantage that even when sometimes we might forget about committing, it will do it automatically for you. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git being code-oriented needs to allow saving multiple files in one commit as a lot of codes are made up of more than one file which are all interrelated. Changing one of the files highly affect the others too. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log command shows the history of all the files i.e. we can see all the previous versions of the file and the small description related to all of ‘em. The git diff command takes two arguments, the ID of both the old and new files between whom you wanna check out the differences.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By comparing different versions one can be sure of what file led to a bug and by comparing that file with the previous version which was working perfectly fine, you can know the lines that were changed and which might have introduced the bug. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To let it help me better manage the projects I work on in future.
